@@ -1,0 +1,13 @@
+ create table enquiry
+  2  (
+  3  enqryId number primary key,
+  4  firstName varchar2(20),
+  5  lastName varchar2(20),
+  6  contactNo varchar2(10),
+  7  domain varchar2(20),
+  8  city varchar2(20)
+  9  );
+  
+  
+  
+  create sequence enquiries start with 1001;
